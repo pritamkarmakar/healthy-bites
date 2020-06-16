@@ -1,5 +1,5 @@
 # Healthy Bites
-This is a native Android app that uses the The New York Times API and display list of food recipes and healthy diets. This application uses Clean Architecture based on MVVM and Repository patterns. The application is written entirely in Kotlin. Dagger 2 is used for dependency injection.
+This is a native Android app that uses the The New York Times API and display list of food recipes and healthy diets. This application uses Clean Architecture based on MVVM and Repository patterns. The application is written entirely in Kotlin. Dagger 2 is used for dependency injection. Unit tests are written using JUnit and Mockito.
 
 ## How to run the app
 Please use Android studio 4.0 to open and run the project in an emulator or in actual device.
