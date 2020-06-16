@@ -1,0 +1,97 @@
+ext {
+    kotlin_version = '1.3.41'
+    rxkotlin_version = '2.4.0'
+    minSdkSupportedVersion = 15
+    maxSdkSupportedVersion = 28
+    appCompileSdkVersion = 29
+    buildToolsVersion = "29.0.2"
+    appApplicationId = "com.blockchain"
+    appVersion = 1
+    appVersionName = "1.0"
+    appcompat_version = '1.0.2'
+    corektx_version = '1.1.0-alpha04'
+    constraintlayout_version = '1.1.3'
+    junit = 'junit:4.12'
+    testrunner = '1.1.0-alpha4'
+    espresso = '3.3.0-alpha02'
+    mockito_kotlin_version = '2.1.0'
+    retrofit_version = '2.3.0'
+    okhttplogging_version = '3.11.0'
+    dagger_version = '2.18'
+    room_version = '1.1.0'
+    room_rx_version = '2.1.0'
+    gson_version = '2.8.5'
+    graphview_version = '4.2.2'
+    mpandroidchart_version = 'v3.1.0-alpha'
+    rxandroid = '2.1.1'
+    mockito_inline_version = '2.8.9'
+    test_runner_version = '1.0.2'
+    leakcanary_version = '2.0-beta-3'
+    material_design_version = '1.0.0'
+    firestore_version = '21.3.1'
+    rx2_firebase_version = '1.5.6'
+    lifecycle_version = '2.1.0'
+    cardview_version = '1.0.0'
+    paging_version = '2.1.1'
+    glide_version = "4.11.0"
+
+    kotlin = "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    appcompat = "androidx.appcompat:appcompat:$appcompat_version"
+    corektx = "androidx.core:core-ktx:$appcompat_version"
+    constraintlayout = "androidx.constraintlayout:constraintlayout:$constraintlayout_version"
+    // jetpack
+    lifecycleextensions = "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
+    viewmodel = "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
+
+    // unit test
+    junit = "junit:$junit"
+    testrunner = "com.android.support.test:runner:$test_runner_version"
+    mockitokotlin = "com.nhaarman.mockitokotlin2:mockito-kotlin:$mockito_kotlin_version"
+    mockitoinline = "org.mockito:mockito-inline:$mockito_inline_version"
+
+    // retrofit
+    retrofit = "com.squareup.retrofit2:retrofit:$retrofit_version"
+    retrofitrx = "com.squareup.retrofit2:adapter-rxjava2:$retrofit_version"
+    convertergson = "com.squareup.retrofit2:converter-gson:$retrofit_version"
+    okhttplogging = "com.squareup.okhttp3:logging-interceptor:$okhttplogging_version"
+
+    // rxkotlin
+    rxkotlin = "io.reactivex.rxjava2:rxkotlin:$rxkotlin_version"
+    // rxandroid
+    rxandroid = "io.reactivex.rxjava2:rxandroid:$rxandroid"
+
+    // Dagger 2
+    dagger = "com.google.dagger:dagger:$dagger_version"
+    daggerandroid = "com.google.dagger:dagger-android:$dagger_version"
+    daggerandroidsupport = "com.google.dagger:dagger-android-support:$dagger_version"
+    daggercompiler = "com.google.dagger:dagger-compiler:$dagger_version"
+    daggerandroidprocessor = "com.google.dagger:dagger-android-processor:$dagger_version"
+
+    // Room
+    room = "android.arch.persistence.room:runtime:$room_version"
+    roomcompiler = "android.arch.persistence.room:compiler:$room_version"
+    roomrxjava = "android.arch.persistence.room:rxjava2:$room_version"
+
+    // GSON
+    gson = "com.google.code.gson:gson:$gson_version"
+
+    // graphview
+    graphview = "com.jjoe64:graphview:$graphview_version"
+
+    // MPAndroidChart
+    mpandroidchart = "com.github.PhilJay:MPAndroidChart:$mpandroidchart_version"
+
+    // leakcanary
+    leakcanary = "com.squareup.leakcanary:leakcanary-android:$leakcanary_version"
+
+    // material design
+    materialdesign = "com.google.android.material:material:$material_design_version"
+    // cardview
+    cardview = "androidx.cardview:cardview:$cardview_version"
+    // paging
+    paging = "androidx.paging:paging-runtime:$paging_version"
+    // powerspinner (android spinner)
+    powerspinner = "com.github.skydoves:powerspinner:1.0.2"
+    // Glide
+    glide = "com.github.bumptech.glide:glide:$glide_version"
+}

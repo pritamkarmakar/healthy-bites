@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">landingscreen</string>
+    <string name="server_error_message">Server error, please try again</string>
+    <string name="alert_text">Do you want to be notified when this lane has new loads?</string>
+    <string name="alert_button_text">Yes, Send Alerts</string>
+    <string name="alert_dialog_text">Great! Sending you lane notifications to help keep your foot on the pedal.</string>
+</resources>

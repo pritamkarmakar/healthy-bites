@@ -1,0 +1,2 @@
+include ':app', ':landingscreen', ':repositorykit', ':repositorykitimpl', ':models', ':remotedata', ':localdata', ':basekit', ':basekitimpl'
+rootProject.name='healthy-bites'
